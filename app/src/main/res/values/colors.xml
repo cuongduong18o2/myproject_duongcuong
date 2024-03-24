@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF00</color>
+    <color name="đỏ">#F31212</color>
+    <color name="xanh">#55CD20</color>
+    <color name="xanhduong">#97FEED</color>
+    <color name="hongnhat">#E0AED0</color>
+    <color name="sua">#F3EEEA</color>
+    <color name="xanhnhat">#C3EDC0</color>
+    <color name="xanhla">#9CFF2E</color>
+    <color name="vang">#F0FF42</color>
+    <color name="timretro">#86A7FC</color>
+    <color name="enablefale">#FFDD95</color>
+    <color name="mau1">#F3D7CA</color>
+    <color name="frHome">#E4F1FF</color>
+</resources>

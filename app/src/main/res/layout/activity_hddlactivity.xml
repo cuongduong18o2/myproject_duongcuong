@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HDDLActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#03A9F4"
+            android:text="Hướng dẫn đặt khám"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bước 1"
+            android:textColor="#00BCD4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cài đặt ứng dụng hoặc truy cập website"
+            android:textColor="#00BCD4"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Người dùng truy cập website: benhvienAngleJT.com.vn, hoặc tải ứng dụng di động AngleJT để trải nghiệm sản phẩm tốt nhất và sử dụng các tính năng dịch vụ mới nhất"
+
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vui lòng cài đặt ứng dụng theo hướng dẫn như sau."
+
+            android:gravity="left"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cách 1 : tải ứng dụng :https://Angle.vn/getapp"
+
+            android:gravity="left"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cách 2: tìm kiếm từ khóa AngleJT trên cửa hàng ứng dụng trên thiết bị của bạn"
+            android:gravity="left"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bước 2"
+            android:textColor="#00BCD4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Đăng ký tài khoản"
+            android:textColor="#00BCD4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cách 1 : nhập số điện thoại "
+            android:gravity="left"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nhập số điện thoại  "
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Xác minh OTP để đăng ký tài khoản Trong vòng 2 phút , sau 2 phút cần phải yêu cầu cấp mã mới  "
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Bổ sung thông tin tài khoản.Họ và tên, Mật khẩu , ngày sinh , giới tính , email"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chọn đăng ký để hoàn tất tài khoản  "
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bước 3"
+            android:textColor="#00BCD4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Đặt lịch khám bệnh"
+            android:textColor="#00BCD4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chọn thông tin đặt khám "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Đăng nhập phần mềm trên web hoặc ứng dụng di động "
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chọn đặt khám tại cơ sở Hoặc đặt khám theo bác sĩ"
+
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chọn thông tin khám : chuyên khoa , bác sĩ , ngày khám , giờ khám , và có BHYT hay không"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nhập thông tin bệnh nhân : chọn hồ sơ có sẵn hoặc tạo hồ sơ mới"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CHỌN / TẠO MỚI HỒ SƠ BỆNH NHÂN (Bạn được phép tạo tối đa 10 hồ sơ) "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_marginStart="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cách 1: Quét mã BHYT.
+Cách 2: Nếu đã từng khám ở bệnh viện, nhập số hồ sơ.
+                            Cách 3: Chưa từng khám, đăng ký mới (nhập đầy đủ các thông tin: Họ và tên; Ngày sinh; Giới tính; Mã bảo hiểm y tế; CMND/Passport; Dân tộc; Nghề nghiệp; Số điện thoại; Email; Địa chỉ)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="THANH TOÁN PHÍ KHÁM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chọn phương thức thanh toán: Quét mã QR, Chuyển khoản 24/7, Thẻ khám bệnh, Thẻ thanh toán quốc tế hoặc thẻ ATM nội địa hoặc Ví điện tử.
+                                                 Kiểm tra thông tin thanh toán (phí khám bệnh, phí tiện ích và tổng tiền) và Xác nhận thanh toán.
+Thực hiện thanh toán trên Ví điện tử hoặc Ứng dụng Ngân hàng hoặc Cổng thanh toán."
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

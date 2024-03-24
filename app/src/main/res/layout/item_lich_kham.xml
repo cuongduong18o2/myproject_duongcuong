@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/xanh"
+            android:drawableLeft="@drawable/iconfinish"
+            android:background="@drawable/rounded"
+            android:textSize="20sp"
+            android:text="Đã đặt lịch"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Tên bác sĩ:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textStyle="bold"
+                android:id="@+id/txtTenBSLichKham"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+
+                android:textSize="20sp"
+                android:text="Giờ khám:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:id="@+id/txtGioKhamLich"
+                android:textSize="15sp"
+               />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Bệnh nhân:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:id="@+id/txtTenBNLichkham"
+                android:textSize="15sp"
+               />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Mã bệnh nhân"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:id="@+id/txtMaBenhNhan"
+                android:textSize="15sp"
+               />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="170dp"
+            android:text="liên hệ để xác nhận hủy lịch"
+            android:background="@drawable/border_all"
+            android:id="@+id/btnGoiDien"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

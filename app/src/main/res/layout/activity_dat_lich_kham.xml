@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatLichKhamActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivhinhBSDL"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/avatar_bacsi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTenBSDL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên Bác sĩ  "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtEmailBSDL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Email "
+
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtFacultyDL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Chuyên khoa"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lịch làm việc : cả tuần"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border_all"
+        android:gravity="center"
+        android:text="Chọn thời gian "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <EditText
+
+        android:id="@+id/edtNgaykham"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:focusable="false"
+        android:layout_marginTop="192dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded"
+        android:hint="Chọn ngày khám"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGiokham"
+        android:text="Chọn giờ khám"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNgaykham" />
+
+    <RadioGroup
+        android:id="@+id/Rdgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtNgaykham">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:button="@color/white"
+            android:layout_height="50dp"
+            android:background="@drawable/customradio_selector"
+            android:textAlignment="center"
+            android:text="7:00- 11:00"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:button="@color/white"
+            android:layout_height="50dp"
+            android:background="@drawable/customradio_selector"
+            android:textAlignment="center"
+            android:text="13:00- 17:00" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:button="@color/white"
+            android:background="@drawable/customradio_selector"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:text="17:00- 21:00" />
+
+
+    </RadioGroup>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rdgbtn"
+        app:layout_constraintVertical_bias="0.106">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:textSize="25sp"
+               android:textStyle="bold"
+               android:text="THÔNG TIN BỆNH NHÂN"/>
+           <TextView
+               android:layout_marginTop="20dp"
+               android:id="@+id/txtTenBN"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:background="@drawable/border"
+               android:text="Họ và tên">
+
+           </TextView>
+           <TextView
+               android:layout_marginTop="20dp"
+               android:id="@+id/txtGenderBN"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:background="@drawable/border"
+               android:text="Giới tính">
+
+           </TextView>
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:id="@+id/txtDoBBN"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:background="@drawable/border"
+               android:text="Ngày sinh">
+
+           </TextView>
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/txtSDTBN"
+               android:background="@drawable/border"
+               android:text="Điện thoại">
+
+           </TextView>
+           <Button
+               android:layout_width="300dp"
+               android:id="@+id/btnXacNhan"
+               android:layout_marginTop="20dp"
+               android:background="@drawable/css_btn"
+               android:layout_height="50dp"
+               android:layout_gravity="center"
+               android:text="Xác nhận"/>
+
+
+
+       </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

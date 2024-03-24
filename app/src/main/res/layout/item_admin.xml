@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#03A9F4"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivhinhBSADMIN"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/avatar_bacsi" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTenBSADMIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên Bác sĩ  "
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:id="@+id/txtEmailBSADMIN"
+
+                android:hint="Email "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/txtFacultyBSADMIN"
+                android:hint=" Chuyên khoa"/>
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:background="@drawable/rounded"
+
+                android:id="@+id/btnSUA"
+                android:text="Chỉnh sửa"/>
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:background="@drawable/rounded"
+
+                android:id="@+id/btnXOA"
+                android:text="Xóa"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
